@@ -9,6 +9,7 @@ public class Task2 {
         double Y = X * (9.0/5.0) + 32;
         double Z = X + 273.16;
 
+        System.out.println( "************************************************************************************ ");
         System.out.println(X + " Celsius; " + Y + " Fahrenheit; " + Z + " Kelvin;");
     }
 }
