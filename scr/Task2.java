@@ -1,7 +1,7 @@
 public class Task2 {
     public static void main(String[] args) {
 
-        /*Формули:
+        /*Формули для выконання дз:
         Celsius = 5/9 (F - 32)
         Kelvin = C + 273.16*/
 
