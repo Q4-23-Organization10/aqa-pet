@@ -17,7 +17,7 @@ public class hw7Task1 {
             charArray2[i] = charArray1[charArray1.length - 1 - i];
         }
 
-        boolean poli = true;
+
         for (int i = 0; i < charArray1.length; i++) {
             if (charArray1[i] != charArray2[i]) {
                 System.out.println("Рядок не є паліндромом");
