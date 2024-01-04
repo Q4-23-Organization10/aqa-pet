@@ -16,25 +16,15 @@ public class hw7Task1 {
         for (int i = 0; i < charArray1.length; i++) {
             charArray2[i] = charArray1[charArray1.length - 1 - i];
 
-            if (charArray1[i] != charArray2[i]) {
-                System.out.println("Рядок не є паліндромом");
-
-            } else {
-                System.out.println("Рядок є паліндромом");
-
-            }
         }
 
 
-     /*   for (int i = 0; i < charArray1.length; i++) {
-            if (charArray1[i] != charArray2[i]) {
+            if (charArray1 != charArray2) {
                 System.out.println("Рядок не є паліндромом");
-                break;
+
             } else {
                 System.out.println("Рядок є паліндромом");
-                break;
             }
-        } */
 
         scanner.close();
     }
