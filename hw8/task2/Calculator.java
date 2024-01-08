@@ -19,7 +19,7 @@ public class Calculator {
 
     public static double divide(double a, double b) {
         if (b == 0) {
-            System.out.println("Дылення на 0 неможлыве");
+            System.out.println("Дылення на 0 неможливе");
         }
         return a / b;
     }
