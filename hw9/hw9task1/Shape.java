@@ -8,15 +8,9 @@ public abstract class Shape {
         this.color = color;
     }
 
-    protected void calculateArea(){
-
-    }
+    protected abstract void calculateArea();
 
 
-    protected void calculatePerimeter(){
-
-    }
-    protected void paint(){
-
-    }
+    protected abstract void calculatePerimeter();
+    protected abstract void paint();
 }
