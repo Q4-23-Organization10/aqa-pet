@@ -1,10 +1,9 @@
-package hw9task1;
+package hw10task3;
 
-public abstract class Shape {
-
+public abstract class ShapeHW10 {
     protected String color;
 
-    public Shape(String color) {
+    public ShapeHW10(String color) {
         this.color = color;
     }
 
