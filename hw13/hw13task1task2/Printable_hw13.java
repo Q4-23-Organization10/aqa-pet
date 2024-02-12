@@ -1,4 +1,4 @@
-package task1task2;
+package hw13task1task2;
 
 public interface Printable_hw13 {
     void print();

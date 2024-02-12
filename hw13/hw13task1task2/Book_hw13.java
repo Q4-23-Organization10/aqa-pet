@@ -1,7 +1,6 @@
-package task1task2;
+package hw13task1task2;
 
 import hw10task2.Book;
-import hw10task2.Printable;
 
 public class Book_hw13 implements Printable_hw13{
 

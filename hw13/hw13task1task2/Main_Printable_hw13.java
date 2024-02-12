@@ -1,7 +1,7 @@
-package task1task2;
+package hw13task1task2;
 
 
-import static task1task2.Printable_hw13.printableInterfice;
+import static hw13task1task2.Printable_hw13.printableInterfice;
 
 public class Main_Printable_hw13 {
     public static void main(String[] args) {

@@ -1,7 +1,4 @@
-package task1task2;
-
-import hw10task2.Magazine;
-import hw10task2.Printable;
+package hw13task1task2;
 
 public class Magazine_hw13 implements Printable_hw13 {
 
