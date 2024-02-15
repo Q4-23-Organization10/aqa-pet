@@ -1,5 +1,7 @@
 package hw13task1task2;
 
+import java.util.Arrays;
+
 public class Magazine_hw13 implements Printable_hw13 {
 
     public String title;
@@ -17,10 +19,6 @@ public class Magazine_hw13 implements Printable_hw13 {
     }
 
     public static void printMagazines13(Printable_hw13[] printable) {
-        for (Printable_hw13 p : printable) {
-            if (p instanceof Magazine_hw13) {
-                p.print();
-            }
-        }
+        Arrays.stream(printable).filter(p -> p instanceof Magazine_hw13).forEach(Printable_hw13::print);
     }
 }

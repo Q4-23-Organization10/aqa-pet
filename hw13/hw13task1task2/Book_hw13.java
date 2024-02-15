@@ -1,6 +1,8 @@
 package hw13task1task2;
 
-import hw10task2.Book;
+
+
+import java.util.Arrays;
 
 public class Book_hw13 implements Printable_hw13{
 
@@ -17,10 +19,6 @@ public class Book_hw13 implements Printable_hw13{
     }
 
     public static void printBooks13(Printable_hw13[] printable) {
-        for (Printable_hw13 p : printable) {
-            if (p instanceof Book) {
-                p.print();
-            }
-        }
+        Arrays.stream(printable).filter(p -> p instanceof Book_hw13).forEach(Printable_hw13::print);
     }
 }

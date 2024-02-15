@@ -1,6 +1,8 @@
 package hw13task1task2;
 
 
+import java.util.Arrays;
+
 import static hw13task1task2.Printable_hw13.printableInterfice;
 
 public class Main_Printable_hw13 {
@@ -11,9 +13,7 @@ public class Main_Printable_hw13 {
         print[2] = new Book_hw13("It ", "S. King");
         print[3] = new Magazine_hw13("Magazine 2", "10.01.24");
 
-        for (Printable_hw13 printable : print) {
-            printUsingMethodReference(printable);
-        }
+        Arrays.stream(print).forEach(Main_Printable_hw13::printUsingMethodReference);
 
 
         System.out.println("------------------------------------------");
