@@ -1,8 +1,17 @@
+
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+
 import java.util.Scanner;
 
 public class MainGame {
+
+    public static final Logger LOGGER = LogManager.getLogger(MainGame.class);
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
+
 
         Player player1 = new PlayerHuman(scanner);
         Player player2 = new PlayerComp();
@@ -10,6 +19,7 @@ public class MainGame {
         int resPlayer1 = 0;
         int resPlayer2 = 0;
 
+        LOGGER.info("LOG:Гра почалась");
         for (int i = 0; i < 3; i++) {
             Move move1 = player1.getMove();
             Move move2 = player2.getMove();
@@ -19,11 +29,14 @@ public class MainGame {
             if (result > 0) {
                 resPlayer1++;
                 System.out.println("Гравець 1 переміг!" );
+                LOGGER.info("LOG:Гравець 1 переміг!");
             } else if (result < 0) {
                 resPlayer2++;
                 System.out.println("Гравець 2 переміг!" );
+                LOGGER.info("LOG:Гравець 2 переміг!");
             } else {
                 System.out.println("Нічия!");
+                LOGGER.info("LOG:Нічия!");
             }
         }
 
