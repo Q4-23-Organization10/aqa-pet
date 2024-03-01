@@ -32,7 +32,7 @@ public class PlayerHuman extends Player {
                     LOGGER.info("LOG:Гравець вибрав папір");
                     return Move.PAPER;
                 default:
-                    LOGGER.warn("LOG:Неправильний вибір");
+                    //LOGGER.warn("LOG:Неправильний вибір");
                     throw new IllegalArgumentException("Неправильний вибір");
             }
     }
