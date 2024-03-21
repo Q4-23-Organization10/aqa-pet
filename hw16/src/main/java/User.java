@@ -1,6 +1,6 @@
-package hw13.hw13task3;
 
 public class User {
+
     private String firstName;
     private String secondName;
     private int age;

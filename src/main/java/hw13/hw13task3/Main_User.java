@@ -1,4 +1,4 @@
-package main.java.hw13.hw13task3;
+package hw13.hw13task3;
 
 import java.util.ArrayList;
 import java.util.Comparator;

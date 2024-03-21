@@ -7,6 +7,9 @@
     <packaging>pom</packaging>
     <name>Archetype - aqa-pet</name>
     <url>http://maven.apache.org</url>
+    <modules>
+        <module>hw16</module>
+    </modules>
 
 
     <build>
